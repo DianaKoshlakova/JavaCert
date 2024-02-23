@@ -1,5 +1,7 @@
 package JavaCert;
 
+import static java.lang.StringTemplate.STR;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Comparator;
@@ -23,9 +25,9 @@ public class DropMachine {
   };
 
   public void createQueue() {
-      toyCollection.add(new Toy(1, "Конструктор", 20));
+      toyCollection.add(new Toy(1, "Медвежонок", 30));
       toyCollection.add(new Toy(2, "Кукла", 20));
-      toyCollection.add(new Toy(3, "Робот", 60));
+      toyCollection.add(new Toy(3, "Вертолет", 50));
   }
 
   public void addToy(Toy toy) {
